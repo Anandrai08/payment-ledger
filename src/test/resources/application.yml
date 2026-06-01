@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:tc:mysql:8.0:///test?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: test
+    password: test
+    driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+  flyway:
+    enabled: false
