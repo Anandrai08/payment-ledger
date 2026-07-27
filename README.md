@@ -31,3 +31,20 @@ mvn clean install
 mvn spring-boot:run
 🧪 Run Tests
 mvn test
+
+▶️ Running the Project
+Clone
+git clone https://github.com/Anandrai08/payment-ledger.git
+cd payment-ledger
+Build
+mvn clean install
+Run
+mvn spring-boot:run
+
+Application:
+
+http://localhost:8080
+
+Swagger:
+
+http://localhost:8080/swagger-ui.html
